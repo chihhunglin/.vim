@@ -556,4 +556,14 @@ if !g:remoteSession
   let g:airline_powerline_fonts=1
 endif
 
+" =================== vim-fzf ========================
+
+" FZF (replaces Ctrl-P, FuzzyFinder and Command-T)
+set rtp+=/usr/local/opt/fzf
+set rtp+=~/.fzf
+nmap ; :Buffers<CR>
+nmap <Leader>r :Tags<CR>
+nmap <Leader>t :Files<CR>
+nmap <Leader>a :Ag<CR>
+
 " vim:ts=2:sw=2:et
