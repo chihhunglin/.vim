@@ -234,7 +234,7 @@ endfunction
 command! Ball :call DeleteInactiveBufs()
 
 " Close quickfix easily
-nnoremap <leader>a :cclose<CR>
+nnoremap <leader>x :cclose<CR>
 
 " Remove search highlight
 nnoremap <leader><space> :nohlsearch<CR>
@@ -542,9 +542,9 @@ autocmd BufWritePre * StripWhitespace
 
 " ================= clang-format ==================
 
-map <C-K> :pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
-imap <C-K> <c-o>:pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
-autocmd BufWritePre *.cpp,*.hpp pyf /usr/share/vim/addons/syntax/clang-format-3.8.py
+" map <C-K> :pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
+" imap <C-K> <c-o>:pyf /usr/share/vim/addons/syntax/clang-format-3.8.py<cr>
+" autocmd BufWritePre *.cpp,*.hpp pyf /usr/share/vim/addons/syntax/clang-format-3.8.py
 
 " =================== vim-airline ========================
 
@@ -565,5 +565,17 @@ nmap ; :Buffers<CR>
 nmap <Leader>r :Tags<CR>
 nmap <Leader>t :Files<CR>
 nmap <Leader>a :Ag<CR>
+
+" =================== vim-ack ========================
+
+" Tell ack.vim to use ag (the Silver Searcher) instead
+let g:ackprg = 'ag --vimgrep'
+
+" Search for the word under the cursor in the current directory
+nmap <M-k>    mo:Ack! "\b<cword>\b" <CR>
+nmap <Esc>k   mo:Ack! "\b<cword>\b" <CR>
+nmap ˚        mo:Ack! "\b<cword>\b" <CR>
+nmap <M-S-k>  mo:Ggrep! "\b<cword>\b" <CR>
+nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 
 " vim:ts=2:sw=2:et
