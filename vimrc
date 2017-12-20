@@ -573,7 +573,8 @@ let g:ackprg = 'ag --vimgrep'
 
 " Search for the word under the cursor in the current directory
 nmap <M-k>    mo:Ack! "\b<cword>\b" <CR>
-nmap <Esc>k   mo:Ack! "\b<cword>\b" <CR>
+" bad map for me
+" nmap <Esc>k   mo:Ack! "\b<cword>\b" <CR>
 nmap ˚        mo:Ack! "\b<cword>\b" <CR>
 nmap <M-S-k>  mo:Ggrep! "\b<cword>\b" <CR>
 nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
