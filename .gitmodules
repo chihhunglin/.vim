@@ -102,3 +102,6 @@
 	path = bundle/vim-wakatime
 	url = https://github.com/wakatime/vim-wakatime.git
 	ignore = untracked
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
