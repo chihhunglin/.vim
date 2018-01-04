@@ -111,3 +111,7 @@
 [submodule "bundle/vim-prettier"]
 	path = bundle/vim-prettier
 	url = https://github.com/prettier/vim-prettier.git
+	ignore = untracked
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale.git
