@@ -105,3 +105,6 @@
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/vim-windowswap"]
+	path = bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap.git
