@@ -579,9 +579,12 @@ nmap ˚        mo:Ack! "\b<cword>\b" <CR>
 nmap <M-S-k>  mo:Ggrep! "\b<cword>\b" <CR>
 nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 
-" vim:ts=2:sw=2:et
-
 " vim prettier
 let g:prettier#autoformat = 0
 let g:prettier#exec_cmd_async = 1
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync
+
+" move
+let g:move_key_modifier = 'C'
+
+" vim:ts=2:sw=2:et
