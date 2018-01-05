@@ -580,11 +580,15 @@ nmap <M-S-k>  mo:Ggrep! "\b<cword>\b" <CR>
 nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 
 " vim prettier
-let g:prettier#autoformat = 0
-let g:prettier#exec_cmd_async = 1
-autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync
+" let g:prettier#exec_cmd_async = 1
+" autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync
+" let g:prettier#autoformat = 0
 
 " move
 let g:move_key_modifier = 'C'
 
+" ycm
+let g:ycm_server_python_interpreter = '/usr/bin/python'
+let g:ycm_server_keep_logfiles = 1
+let g:ycm_server_log_level = 'debug'
 " vim:ts=2:sw=2:et
