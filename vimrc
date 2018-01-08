@@ -584,11 +584,17 @@ nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 " autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync
 " let g:prettier#autoformat = 0
 
+" =================== vim-move ========================
+
 " move
 let g:move_key_modifier = 'C'
+
+" =================== YouCompleteMe ========================
 
 " ycm
 let g:ycm_server_python_interpreter = '/usr/bin/python'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
+
+
 " vim:ts=2:sw=2:et
