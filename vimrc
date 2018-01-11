@@ -267,7 +267,7 @@ imap jk <ESC>l
 nnoremap <F6> :setlocal spell! spell?<CR>
 
 " Select search pattern howewever do not jump to the next one
-nnoremap <leader>c :TComment<CR>
+" nnoremap <leader>c :TComment<CR>
 
 " Search mappings: These will make it so that going to the next one in a
 " search will center on the line it's found in.
@@ -599,5 +599,9 @@ let g:ycm_server_python_interpreter = '/usr/bin/python'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'debug'
 
+" =================== NERD Commenter ========================
+
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
 
 " vim:ts=2:sw=2:et
