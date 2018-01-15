@@ -604,4 +604,11 @@ let g:ycm_server_log_level = 'debug'
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 
+" =================== UltiSnips ========================
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-e>"
+let g:UltiSnipsJumpForwardTrigger="<c-r>"
+let g:UltiSnipsJumpBackwardTrigger="<c-w>"
+
 " vim:ts=2:sw=2:et
