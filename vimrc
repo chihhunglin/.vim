@@ -590,7 +590,7 @@ nmap <Esc>K   mo:Ggrep! "\b<cword>\b" <CR>
 " =================== vim-move ========================
 
 " move
-let g:move_key_modifier = 'C'
+" let g:move_key_modifier = 'C'
 
 " =================== YouCompleteMe ========================
 
