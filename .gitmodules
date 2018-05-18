@@ -95,10 +95,6 @@
 [submodule "bundle/vim-vue"]
 	path = bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
-[submodule "bundle/vim-wakatime"]
-	path = bundle/vim-wakatime
-	url = https://github.com/wakatime/vim-wakatime.git
-	ignore = untracked
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
