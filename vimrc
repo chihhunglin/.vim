@@ -418,8 +418,8 @@ command! MyCtrlPTag call MyCtrlPTag()
 nmap <C-g> :MyCtrlPTag<cr>
 imap <C-g> <esc>:MyCtrlPTag<cr>
 
-nmap <C-b> :CtrlPCurWD<cr>
-imap <C-b> <esc>:CtrlPCurWD<cr>
+"nmap <C-b> :CtrlPCurWD<cr>
+"imap <C-b> <esc>:CtrlPCurWD<cr>
 
 " ==================== Fugitive ====================
 nnoremap <leader>ga :Git add %:p<CR><CR>
