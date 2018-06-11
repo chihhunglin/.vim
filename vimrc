@@ -645,4 +645,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint'
 "let g:syntastic_debug=3
 
+" ctags
+set tags=tags
+
 " vim:ts=2:sw=2:et
